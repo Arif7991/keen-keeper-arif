@@ -4,6 +4,7 @@ import { TimelineContext } from "../context/TimelineContext";
 // import toast from "react-hot-toast";
 import { FaPhoneAlt, FaSms, FaVideo } from "react-icons/fa";
 import { toast } from "react-toastify";
+import { RiArchiveFill, RiDeleteBin6Fill, RiNotificationSnoozeFill } from "react-icons/ri";
 
 export default function FriendDetails() {
   const { id } = useParams();
@@ -73,10 +74,10 @@ export default function FriendDetails() {
           </p>
 
           <div className="mt-6 space-y-3">
-            <button className="btn btn-outline w-full">⏰ Snooze 2 Weeks</button>
-            <button className="btn btn-outline w-full">📦 Archive</button>
+            <button className="btn btn-outline w-full"><RiNotificationSnoozeFill /> Snooze 2 Weeks</button>
+            <button className="btn btn-outline w-full"><RiArchiveFill /> Archive</button>
             <button className="btn btn-outline w-full text-red-500">
-              🗑️ Delete
+               <RiDeleteBin6Fill />Delete
             </button>
           </div>
         </div>
@@ -122,7 +123,7 @@ export default function FriendDetails() {
             <div className="grid grid-cols-3 gap-4">
               <button
                 onClick={() => handleCheckIn("Call")}
-                className="btn btn-outline flex flex-col"
+                className="btn btn-outline flex flex-col "
               >
                 <FaPhoneAlt /> Call
               </button>
