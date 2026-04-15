@@ -77,7 +77,7 @@ export default function FriendDetails() {
             <button className="btn btn-outline w-full"><RiNotificationSnoozeFill /> Snooze 2 Weeks</button>
             <button className="btn btn-outline w-full"><RiArchiveFill /> Archive</button>
             <button className="btn btn-outline w-full text-red-500">
-               <RiDeleteBin6Fill />Delete
+               <RiDeleteBin6Fill />Delet
             </button>
           </div>
         </div>
