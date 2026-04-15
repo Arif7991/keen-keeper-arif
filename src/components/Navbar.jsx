@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <div className="bg-white shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h2 className="text-xl font-bold">KeenKeeper</h2>
+        <h2 className="text-3xl"><span className="font-bold">Keen</span><span className="text-green-900 font-semibold">Keeper</span></h2>
 
-        <div className="flex gap-3 text-sm">
+        <div className="flex gap-3 text-lg font-semibold ">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -25,7 +25,7 @@ export default function Navbar() {
           <NavLink
             to="/timeline"
             className={({ isActive }) =>
-              `flex items-center gap-1 px-3 py-1 rounded-md ${
+              `flex items-center gap-1 px-3 py-1 rounded-md font-semibold ${
                 isActive ? "bg-green-900 text-white" : "text-gray-700"
               }`
             }
@@ -37,7 +37,7 @@ export default function Navbar() {
           <NavLink
             to="/stats"
             className={({ isActive }) =>
-              `flex items-center gap-1 px-3 py-1 rounded-md ${
+              `flex items-center gap-1 px-3 py-1 rounded-md font-semibold  ${
                 isActive ? "bg-green-900 text-white" : "text-gray-700"
               }`
             }
