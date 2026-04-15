@@ -30,7 +30,7 @@ export default function FriendCard({ friend }) {
 
       <div className="flex justify-center gap-2 mt-3 flex-wrap">
         {friend.tags.map((tag, index) => (
-          <span key={index} className="badge badge-outline text-xs">
+          <span key={index} className="badge font-semibold uppercase text-xs bg-green-100">
             {tag}
           </span>
         ))}

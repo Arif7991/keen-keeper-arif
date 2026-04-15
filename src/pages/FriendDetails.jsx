@@ -74,10 +74,10 @@ export default function FriendDetails() {
           </p>
 
           <div className="mt-6 space-y-3">
-            <button className="btn btn-outline w-full"><RiNotificationSnoozeFill /> Snooze 2 Weeks</button>
-            <button className="btn btn-outline w-full"><RiArchiveFill /> Archive</button>
-            <button className="btn btn-outline w-full text-red-500">
-               <RiDeleteBin6Fill />Delet
+            <button className="btn btn-outline border border-gray-300 w-full"><RiNotificationSnoozeFill /> Snooze 2 Weeks</button>
+            <button className="btn btn-outline w-full border border-gray-300 "><RiArchiveFill /> Archive</button>
+            <button className="btn btn-outline border border-gray-300 w-full text-red-500">
+               <RiDeleteBin6Fill />Delete
             </button>
           </div>
         </div>
@@ -120,28 +120,31 @@ export default function FriendDetails() {
           <div className="bg-white shadow rounded-lg p-6">
             <h2 className="font-semibold mb-4">Quick Check-In</h2>
 
-            <div className="grid grid-cols-3 gap-4">
-              <button
-                onClick={() => handleCheckIn("Call")}
-                className="btn btn-outline flex flex-col "
-              >
-                <FaPhoneAlt /> Call
-              </button>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+  <button
+    onClick={() => handleCheckIn("Call")}
+    className="bg-gray-100 border border-gray-300 rounded-lg py-2 flex flex-col items-center justify-center gap-3 hover:bg-gray-200 transition"
+  >
+    <FaPhoneAlt className="text-xl text-gray-700" />
+    <span className="text-lg font-medium text-gray-700">Call</span>
+  </button>
 
-              <button
-                onClick={() => handleCheckIn("Text")}
-                className="btn btn-outline flex flex-col"
-              >
-                <FaSms /> Text
-              </button>
+  <button
+    onClick={() => handleCheckIn("Text")}
+    className="bg-gray-100 border border-gray-300 rounded-lg  py-2 flex flex-col items-center justify-center gap-3 hover:bg-gray-200 transition"
+  >
+    <FaSms className="text-xl text-gray-700" />
+    <span className="text-lg font-medium text-gray-700">Text</span>
+  </button>
 
-              <button
-                onClick={() => handleCheckIn("Video")}
-                className="btn btn-outline flex flex-col"
-              >
-                <FaVideo /> Video
-              </button>
-            </div>
+  <button
+    onClick={() => handleCheckIn("Video")}
+    className="bg-gray-100 border border-gray-300 rounded-lg py-2 flex flex-col items-center justify-center gap-3 hover:bg-gray-200 transition"
+  >
+    <FaVideo className="text-xl text-gray-700" />
+    <span className="text-lg font-medium text-gray-700">Video</span>
+  </button>
+</div>
           </div>
         </div>
       </div>
