@@ -5,8 +5,8 @@ KeenKeeper is a friendship tracking web application where users can manage their
 ---
 
 ## 🚀 Live Demo
-🔗 Live Site: *(Add your deployed link here)*  
-🔗 GitHub Repo: *(Add your repository link here)*  
+🔗 Live Site: (https://keen-keeper-arif-fb5s7qpau-bmarifislam954-4683s-projects.vercel.app/)
+🔗 GitHub Repo: *(https://github.com/Arif7991/keen-keeper-arif)*  
 
 ---
 
@@ -24,16 +24,16 @@ Users can:
 
 ## 🛠️ Technologies Used
 - **React (Vite)**
-- **React Router DOM**
+- **React Router **
 - **Tailwind CSS**
 - **DaisyUI**
 - **React Icons**
-- **React Hot Toast**
+- **React Toast**
 - **Recharts**
 
 ---
 
-## ✨ Key Features
+## Key Features
 ✅ Fully responsive design (Mobile / Tablet / Desktop)  
 ✅ Dynamic friend status UI (Overdue / Almost Due / On-track)  
 ✅ Friend details page with Quick Check-In interaction logging  
@@ -48,7 +48,7 @@ Users can:
 
 1. Clone the repository
 ```bash
-git clone <your-github-repo-link>
+git clone <https://github.com/Arif7991/keen-keeper-arif >
 Go inside the project folder
 cd keen-keeper
 Install dependencies

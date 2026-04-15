@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <TimelineProvider>
       <RouterProvider router={Router} />
-      <ToastContainer position="top-right" />
+      <ToastContainer position="top-center" />
     </TimelineProvider>
   </React.StrictMode>
 );

@@ -1,7 +1,6 @@
 import { useParams } from "react-router";
 import { useContext, useEffect, useState } from "react";
 import { TimelineContext } from "../context/TimelineContext";
-// import toast from "react-hot-toast";
 import { FaPhoneAlt, FaSms, FaVideo } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { RiArchiveFill, RiDeleteBin6Fill, RiNotificationSnoozeFill } from "react-icons/ri";
