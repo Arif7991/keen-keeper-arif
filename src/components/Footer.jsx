@@ -1,4 +1,5 @@
-import { FaFacebookF, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -17,10 +18,12 @@ export default function Footer() {
             <FaFacebookF />
           </button>
           <button className="btn btn-circle btn-sm bg-white text-black">
-            <FaGithub />
+            <FaInstagram />
+ 
           </button>
           <button className="btn btn-circle btn-sm bg-white text-black">
-            <FaTwitter />
+            <FaXTwitter />
+ 
           </button>
         </div>
 
